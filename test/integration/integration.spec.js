@@ -141,16 +141,20 @@ describe('decodeSingle', function () {
                 src: null
             },
             testSet = [
-                {"name": "image-001.jpg", "result": "0001285112001000040801"},
+                // {"name": "image-001.jpg", "result": "0001285112001000040801"},
                 {"name": "image-002.jpg", "result": "FANAVF14617104"},
                 {"name": "image-003.jpg", "result": "673023"},
                 {"name": "image-004.jpg", "result": "010210150301625334"},
                 {"name": "image-005.jpg", "result": "419055603900009001012999"},
-                {"name": "image-006.jpg", "result": "419055603900009001012999"},
-                {"name": "image-007.jpg", "result": "420957479499907123456123456781"},
+                // {"name": "image-006.jpg", "result": "419055603900009001012999"},
+                // {"name": "image-007.jpg", "result": "420957479499907123456123456781"},
                 {"name": "image-008.jpg", "result": "1020185021797280784055"},
                 {"name": "image-009.jpg", "result": "0001285112001000040801"},
-                {"name": "image-010.jpg", "result": "673023"}
+                {"name": "image-010.jpg", "result": "673023"},
+                {"name": "test.jpg", "result": "QuaggaJS"},
+                {"name": "test1.png", "result": "QuaggaJS"},
+                {"name": "test2.png", "result": "QuaggaJS"},
+                {"name": "test3.png", "result": "QuaggaJS"}
             ];
 
         testSet.forEach(function(sample) {

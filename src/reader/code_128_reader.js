@@ -123,7 +123,7 @@ var properties = {
         [2, 3, 3, 1, 1, 1, 2]
     ]},
     SINGLE_CODE_ERROR: {value: 0.64},
-    AVG_CODE_ERROR: {value: 0.30},
+    AVG_CODE_ERROR: {value: 0.10},
     FORMAT: {value: "code_128", writeable: false},
     MODULE_INDICES: {value: {bar: [0, 2, 4], space: [1, 3, 5]}}
 };
